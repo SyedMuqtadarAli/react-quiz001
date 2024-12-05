@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-quiz001/static/css/main.ba60ef24.css",
+    "main.js": "/react-quiz001/static/js/main.0fd34b0e.js",
+    "static/js/453.2b0627e5.chunk.js": "/react-quiz001/static/js/453.2b0627e5.chunk.js",
+    "static/media/education.jpg": "/react-quiz001/static/media/education.f011b7249e1651e2f85c.jpg",
+    "static/media/nature.jpg": "/react-quiz001/static/media/nature.a2aaa242d237ad1e0bbe.jpg",
+    "static/media/sport.jpg": "/react-quiz001/static/media/sport.e9df3b0d8fc354453a37.jpg",
+    "static/media/funFact.jpg": "/react-quiz001/static/media/funFact.b29a5aa622e369f2affd.jpg",
+    "static/media/constitution.jpg": "/react-quiz001/static/media/constitution.74d100db33dea3ca5a72.jpg",
+    "static/media/historical.jpg": "/react-quiz001/static/media/historical.5c63be878bc89a0a4d00.jpg",
+    "index.html": "/react-quiz001/index.html",
+    "main.ba60ef24.css.map": "/react-quiz001/static/css/main.ba60ef24.css.map",
+    "main.0fd34b0e.js.map": "/react-quiz001/static/js/main.0fd34b0e.js.map",
+    "453.2b0627e5.chunk.js.map": "/react-quiz001/static/js/453.2b0627e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba60ef24.css",
+    "static/js/main.0fd34b0e.js"
+  ]
+}

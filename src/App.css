@@ -1,0 +1,12 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 70px; /*  value based on the height of your navbar*/
+  background-color:rgb(235, 244, 242)!important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

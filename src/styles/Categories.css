@@ -1,0 +1,98 @@
+/* Categories.css */
+.categories-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+    margin: 20px; /* Outer margin for the container */
+}
+
+.search-bar {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+    padding: 10px; /* Padding for better appearance */
+    border: 1.5px solid #0cd9b7; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the search bar */
+}
+
+/* Card container for wrapping the boxes */
+.card-container {
+    display: flex;
+    justify-content: center; /* Center the cards */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 20px; /* Space between the cards */
+}
+
+/* Individual card styles */
+.card {
+    display: flex; /* Use flex to align items within the card */
+    flex-direction: column; /* Align items vertically */
+    justify-content: space-between; /* Space out items */
+    width: calc(33.33% - 20px); /* Three boxes in one row with gaps */
+    min-width: 300px; /* Minimum width for smaller screens */
+    max-width: 350px; /* Limit max width for larger screens */
+    height: 400px; /* Set a fixed height for better appearance */
+    padding: 20px;
+    text-align: center;
+    background-color: #55cab6 !important; /* Bootstrap primary color */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.card:hover {
+    background-color: #0cd9b7 !important;
+
+}
+
+/* Ensure the image has equal height */
+.card img {
+    width: 100%; /* Make image fill the card */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+/* Style for the button (if needed) */
+.btn {
+    margin: 15px 0; /* Add some vertical margin */
+    flex-shrink: 0; /* Prevent button from shrinking */
+    width: 100%; /* Make button full width */
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    color: white;
+    background-color: #263936 !important;
+    border: 2px solid black !important;
+}
+
+.btn:hover {
+    background-color: #16e3c1 !important;
+    cursor: pointer;
+    color: black !important;
+}
+
+/* Media query for larger screens */
+@media (min-width: 769px) {
+    .card {
+        width: calc(33.33% - 20px); /* Show three cards in one row */
+        height: 400px; /* Ensure a fixed height */
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Full width for mobile screens */
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .card img {
+        height: 120px; /* Adjust image height for mobile */
+    }
+
+    .card-body {
+        padding: 15px; /* Reduce padding for mobile */
+    }
+}

@@ -1,0 +1,40 @@
+#brand{
+    letter-spacing:0.5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar-custom {
+    background-color:#40e3c8!important;/* Bootstrap primary color */
+}
+.toggleBar{
+    color:black!important;
+    background-color:white!important;
+    box-shadow:none!important;
+    border:1px solid black!important;
+    
+}
+
+.brand-text {
+    color: white; /* Brand text color */
+    font-size: 24px; /* Adjust font size */
+}
+
+.nav-link {
+    color:white; /* Nav link color */
+    margin: 0 15px; /* Horizontal margin for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    font-size:16px;
+    font-weight:600;
+}
+
+.nav-link:hover {
+    color:black; /* Lighter color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-link {
+        margin: 0; /* Remove margin for smaller screens */
+        padding: 10px; /* Padding for touch targets */
+    }
+}

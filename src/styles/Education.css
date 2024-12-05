@@ -1,0 +1,111 @@
+.quiz-page {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    border:1px solid gray;
+    margin-top:2vh;
+    border-radius:3px;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 500px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.option {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    min-width: 80px;
+    text-align: center;
+    flex: 1 1 calc(50% - 20px);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+}
+
+.options-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.option-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto;
+    background-color:#07c9a8!important;
+    color:black!important;
+    font-size:1.3rem;
+    font-weight:400;
+    transition:background-color 0.2s;
+}
+
+.option.selected {
+    background-color: #07c9a8 !important;
+    color: #fff !important;
+}
+
+.question-number {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .options-container {
+        max-width: 100%;
+    }
+    .quiz-page {
+        margin-top:0;
+        border:none;
+    }
+    .option {
+        flex: 1 1 calc(50% - 10px);
+    }
+    .options-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .option-item {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .option {
+        flex: 1 1 100%;
+        font-size: 14px;
+    }
+    .options-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .option-item {
+        width: 100%;
+    }
+}
